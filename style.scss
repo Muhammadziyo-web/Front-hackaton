@@ -2,18 +2,399 @@
     font-family: playfair;
     src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: open-sans;
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: -box;
     font-family: playfair;
+
 }
-p{
+
+p {
     font-size: 38px;
+}
+
+
+
+//  Start section,footer (Xojiakbar) 
+.container_Section {
+    margin: 0 auto;
 
 }
 
+.Main_color {
+    color: #07484A;
+}
+
+.mt_32px {
+    margin-top: 32px;
+}
+
+.mb-20px {
+    margin-bottom: 20px;
+}
+
+.Small {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    &_strong {
+        font-family: 'open-sans';
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 65px;
+    }
+
+    &_p {
+        font-family: 'open-sans';
+        font-weight: 300;
+        font-size: 24px;
+    }
+}
+
+.scrolling {
+
+    display: flex;
+    // width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 0px;
+
+}
+
+.Section {
+    width: 100%;
+
+
+    &_Benefits {
+        background: #E0EFF6;
+
+        padding: 100px 7%;
+
+
+
+        &_dives {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 105px;
+
+            &-div {
+
+                width: 308px;
+                text-align: center;
+                padding-top: 10px;
+
+                &-h1 {
+                    font-family: playfair;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 48px;
+                }
+
+                &-p {
+                    font-family: 'Open-Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 33px;
+                    text-align: center;
+                    color: #07484A;
+                }
+            }
+        }
+
+        &-h1 {
+            text-align: center;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 64px;
+        }
+    }
+
+    &_Testimonials {
+
+        &-h1 {
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 85px;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        &-p {
+            font-family: 'Open-Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        &_carusel-div {
+            display: flex;
+            width: 95%;
+            margin: 30px auto;
+            align-items: center;
+
+
+            &-right {
+
+                text-align: left;
+                width: 41%;
+                margin-left: 10%;
+                margin-top: 94px;
+
+                &-p {
+                    font-family: 'Open-Sans';
+                }
+            }
+        }
+
+    }
+
+    &_Before_footer {
+        background: #E0F6F1;
+        display: flex;
+        margin-top: 60px;
+
+        &_right {
+            margin-top: 83px;
+            margin-left: 10% !important;
+
+            &-button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 24px;
+                width: 250px;
+                height: 68px;
+                background: #70908B;
+                border-radius: 6px;
+                margin-top: 41px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                font-family: Open-Sans;
+                color: #FDFBF8;
+                border: 0;
+            }
+
+            &-input {
+                border: 0;
+                background: rgba(0, 0, 0, 0);
+                font-family: Open-Sans;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                margin-top: 17px;
+                padding: 16px 20px;
+                border-radius: 10px;
+                padding-right: 100px;
+            }
+
+            &-Not-strong {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 85px;
+                letter-spacing: 0.05em;
+            }
+
+            &-strong {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 64px !important;
+                line-height: 85px;
+                letter-spacing: 0.05em;
+            }
+
+            &-small {
+                font-family: Open-Sans;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px !important;
+                line-height: 85px;
+            }
+        }
+    }
+}
+
+.Footer {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    color: #07484A;
+
+    &_main-li {
+        font-family: 'Open-Sans';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 5px;
+        list-style: none;
+    }
+
+    &_li {
+        margin-top: 10px;
+        font-family: 'Open-Sans';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        list-style: none;
+
+    }
+
+    &_icons {
+        margin-top: 10px;
+        letter-spacing: 1.5em;
+    }
+}
+.md-yes{
+    display: none;
+}
+
+
+
+//-----------Media
+@media (max-width:1074px) {
+    .md-none{
+        display: none;
+    }
+    .md-yes{
+        display: block;
+    }
+    .Section {
+        &_Benefits {
+            &-h1 {
+                font-size: 48px;
+            }
+
+            &_dives-div-p {
+                font-size: 18px;
+            }
+
+            &_dives-div-h1 {
+                font-size: 24px;
+            }
+        }
+        &_Testimonials_carusel-div-right {
+            margin-left: 2%;
+            margin-top: -104px;
+            &-p{
+                font-size: 18px;
+            }
+        }
+        &_Before_footer{
+            &_right{
+                margin-left: 1% !important;
+                &-input{
+                    border-radius: 0;
+                    border-bottom: 2px solid black;
+                }
+                &-Not-strong{
+                    font-size: 48px;
+                }
+                &-strong{
+                    font-size: 48px !important;
+                }
+                &-small{
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .md-yes{
+        display: none;
+    }
+    .md-none{
+        display: block;
+    }
+    .Section {
+        &_Before_footer{
+            flex-wrap: wrap;
+            width: 100%;
+            // justify-content: center;
+            border: 1px solid black;
+        }
+        &_Benefits {
+            padding: 100px 3%;
+        }
+        &_Testimonials_carusel-div {
+            flex-wrap: nowrap;
+
+            &-right {
+                margin-left: 2%;
+                margin-top: 90px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:668px) {
+    .Section {
+        &_Benefits {
+            &_dives {
+                flex-wrap: wrap;
+            }
+        }
+
+        &_Testimonials_carusel-div {
+            flex-wrap: wrap;
+
+            &-right {
+                width: 100%;
+                margin-left: 2%;
+                margin-top: 4px;
+                &-p{
+                    margin-top: 10px;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width:320px) {
+    .Section {
+        &_Benefits {
+
+
+            &-h1 {
+                font-size: 48px;
+            }
+
+            &_dives-div-p {
+                font-size: 18px;
+            }
+
+            &_dives-div-h1 {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+
+
+
+//  End section,footer (Xojiakbar)
