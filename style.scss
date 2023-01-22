@@ -2,18 +2,513 @@
     font-family: playfair;
     src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: open-sans;
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: playfair;
 }
-p{
-    font-size: 38px;
+
+li {
+    list-style-type: none;
+}
+// Umarbek start main  \\
+.main {
+    width: 1920px;
+    margin: 0 auto;
+
+    &__title {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+        line-height: 85px;
+        color: #07484A;
+    }
+
+    &__slider {
+        width: 100%;
+        margin: 1rem auto;
+        position: relative;
+        left: 1rem;
+
+        &__flex {
+            display: flex;
+            justify-content: space-between;
+            overflow-x: scroll;
+
+            &::-webkit-scrollbar {
+                color: black;
+            }
+
+            &__content {
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                padding: 50px 35px;
+                margin: 15px;
+                width: 330px;
+                height: 480px;
+                background: #CAF3E5;
+                border-radius: 16px;
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 1;
+                z-index: 99;
+
+            }
+
+            &__content2 {
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                padding: 50px 35px;
+                margin: 15px;
+                width: 330px;
+                height: 480px;
+                background: #E0EFF6;
+                border-radius: 16px;
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 1;
+                z-index: 99;
+
+            }
+
+            &__content3 {
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                padding: 50px 35px;
+                margin: 15px;
+                width: 330px;
+                height: 480px;
+                background: #EEEBFF;
+                border-radius: 16px;
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 1;
+                z-index: 99;
+
+            }
+
+            &__content4 {
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                padding: 50px 35px;
+                margin: 15px;
+                width: 330px;
+                height: 480px;
+                background: #FFF4E7;
+                border-radius: 16px;
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 1;
+                z-index: 99;
+
+            }
+
+            &__content5 {
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                padding: 50px 35px;
+                margin: 15px;
+                width: 330px;
+                height: 480px;
+                background: #E0EFF6;
+                border-radius: 16px;
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 1;
+                z-index: 99;
+
+            }
+
+            &__content6 {
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                padding: 50px 35px;
+                margin: 15px;
+                width: 330px;
+                height: 480px;
+                background: #E0EFF6;
+                border-radius: 16px;
+                flex: none;
+                order: 1;
+                align-self: stretch;
+                flex-grow: 1;
+                z-index: 99;
+
+            }
+        }
+
+        .btn {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 20px;
+            gap: 18px;
+            width: 265px;
+            height: 73px;
+            border: 1px solid #70908B;
+            background: #70908B;
+            border-radius: 10px;
+            flex: none;
+            order: 3;
+            flex-grow: 0;
+            font-size: 19px;
+            color: #fff;
+
+            &:hover {
+                color: #07484A;
+                background-color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__section {
+        width: 1920px;
+        margin: 0 auto;
+
+        &__title {
+            width: 100%;
+            margin: 15px;
+            height: 96px;
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            line-height: 96px;
+            color: #07484A;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+        }
+
+        .row {
+            width: 100%;
+            margin: 2rem auto;
+            display: flex;
+            justify-content: space-between;
+
+            .ul1 {
+                display: flex;
+                justify-content: space-between;
+
+                :first-child {
+                    font-size: 22px;
+                    margin: 10px;
+
+                }
+
+                .btn {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 16px 24px;
+                    width: 196px;
+                    height: 66px;
+                    background: #70908B;
+                    border-radius: 10px;
+                    flex: none;
+                    border: 1px solid #70908B;
+                    font-size: 20px;
+                    color: #fff;
+                    order: 1;
+                    flex-grow: 0;
+                }
+            }
+
+
+
+            .ul2 {
+                margin-top: -1rem;
+                color: #FFC107;
+                display: flex;
+
+                li {
+                    padding: 7px;
+                    font-size: 22px;
+                }
+            }
+
+            p {
+                font-size: 24px;
+                line-height: 15px;
+                letter-spacing: 3px;
+                margin-left: 10px;
+                margin-top: 10px;
+                color: #07484A;
+                font-weight: 900;
+            }
+
+
+            .box2 {
+                width: 40%;
+                margin: 0 auto;
+
+                &__info {
+                    width: 100%;
+                    margin: 0 auto;
+
+                    &__title {
+                        font-size: 24px;
+
+                        h3 {
+                            font-size: 33px;
+                            color: #07484A;
+                            font-weight: 700;
+                            margin-bottom: 1.5rem;
+                        }
+
+                        h6 {
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 24px;
+                            line-height: 115%;
+                            letter-spacing: -0.02em;
+                            color: #07484A;
+                            line-height: 33px;
+                            flex: none;
+                            order: 0;
+                            flex-grow: 0;
+                        }
+                    }
+
+                    code {
+                        font-size: 25px;
+                        font-weight: 700;
+                        margin-bottom: 1.5rem;
+                    }
+                }
+
+                &__section {
+                    margin-top: 1.7rem;
+                    margin-bottom: 3rem;
+
+                    .ul_scroll {
+                        height: 400px;
+                        overflow-y: scroll;
+
+                        &::-webkit-scrollbar {
+                            width: 5px;
+                            background-color: #fff;
+                            height: 1px;
+                        }
+
+                        &::-webkit-scrollbar-thumb {
+                            background-color: #000;
+                            border-radius: 8px;
+                        }
+                    }
+
+                    &__info {
+
+                        .ul_1 {
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                font-family: 'Open Sans';
+                                font-weight: 700;
+                                font-size: 15px;
+                                margin-right: 3rem;
+                                line-height: 22px;
+                                color: #07484A;
+                                flex: none;
+
+                                span {
+                                    font-family: 'Open Sans';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 22px;
+                                    line-height: 115%;
+                                    letter-spacing: -0.02em;
+                                    color: #07484A;
+                                    flex: none;
+                                    order: 1;
+                                    flex-grow: 0;
+                                    margin-left: 3rem;
+                                }
+                            }
+
+                            .bg-li {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: flex-start;
+                                padding: 20px;
+                                gap: 24px;
+                                width: 450px;
+                                height: 183px;
+                                background: #E0F6F1;
+                                border-radius: 10px;
+                                flex: none;
+                                order: 1;
+                                align-self: stretch;
+                                flex-grow: 0;
+                            }
+
+
+                            .ic {
+                                display: flex;
+                                padding: 7px;
+                                color: #FFC107;
+
+                            }
+
+                            a {
+                                color: grey;
+                                margin-left: 0.654rem;
+                            }
+                        }
+
+                        .ul_2 {
+                            margin-top: 1rem;
+                            display: flex;
+                            gap: 20px;
+
+                            p {
+                                font-family: 'Playfair Display';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 115%;
+                                letter-spacing: -0.02em;
+                                color: #07484A;
+                                flex: none;
+                                order: 0;
+                                flex-grow: 0;
+
+                                span {
+
+                                    font-family: 'Open Sans';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 22px;
+                                    line-height: 115%;
+                                    letter-spacing: -0.02em;
+                                    color: #07484A;
+                                    flex: none;
+                                    order: 1;
+                                    flex-grow: 0;
+                                    margin-left: 8rem;
+                                }
+                            }
+
+                            .ic {
+                                display: flex;
+                                padding: 7px;
+                                color: #FFC107;
+                            }
+
+                            h3 {
+                                width: 70%;
+                                margin-left: .645rem;
+                                font-weight: 300;
+                            }
+
+                            a {
+                                color: grey;
+                                margin-left: .645rem;
+                            }
+                        }
+
+
+                        .ul_3 {
+                            margin-top: 1rem;
+                            display: flex;
+                            gap: 20px;
+
+                            p {
+                                font-family: 'Playfair Display';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 115%;
+                                letter-spacing: -0.02em;
+                                color: #07484A;
+                                flex: none;
+                                order: 0;
+                                flex-grow: 0;
+
+                                span {
+
+                                    font-family: 'Open Sans';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 22px;
+                                    line-height: 115%;
+                                    letter-spacing: -0.02em;
+                                    color: #07484A;
+                                    flex: none;
+                                    order: 1;
+                                    flex-grow: 0;
+                                    margin-left: 8rem;
+                                }
+                            }
+
+                            .ic {
+                                display: flex;
+                                padding: 7px;
+                                color: #FFC107;
+                            }
+
+                            h3 {
+                                width: 70%;
+                                margin-left: .645rem;
+                                font-weight: 300;
+                            }
+
+                            a {
+                                color: grey;
+                                margin-left: .645rem;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+
+        }
+    }
 
 }
 
+.bgi {
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    img {
+        width: 330px;
+    }
+}
+
+
+//  End main  \\
