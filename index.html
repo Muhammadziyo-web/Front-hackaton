@@ -1,32 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-  rel="stylesheet"
-/>
-    <link rel="stylesheet" href="css/style.css">
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,1,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>eCommerse page</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Start header (Muhammadziyo) -->
-    <!-- End header (Muhammadziyo) -->
+    <header>
+      <div class="container-wrapper">
+        <!-- NAVBAR -->
+        <nav>
+          <a href="index.html"
+            ><img src="./images/Logo 1 (1).svg" alt="logo" class="logo"
+          /></a>
+          <ul class="navlink">
+            <li><a href="#" id="active-link">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="nav-right">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button><img src="images/Icon color-cart.svg" alt="img" /></button>
+            <button class="login"><img  src="images/Icon color.svg" alt="acc" /></button>
+          </div>
+        </nav>
 
+        <!-- TEXTS -->
+        <div class="header-text">
+          <h1>Exclusive Deals of Furniture Collection</h1>
+          <p>Explore different categories. Find the best deals.</p>
+          <button class="btn-hover">Shop Now</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- CATEGORY PART -->
+
+    <h1 class="explore">Explore by Category</h1>
+    <div class="category">
+      <div class="search-part">
+        <span
+          ><input type="text" placeholder="Search" /><img
+            class="lupa"
+            src="images/Icon-search.svg"
+            alt="search"
+        /></span>
+
+        <ul id="category"></ul>
+        <button class="btn-hover">
+          All Categories <i class="fa-solid fa-arrow-right"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+        </button>
+    </div>
+    
+    <div class="tab-content">
+    </div>
+</div>
+
+<!-- MODAL -->
+
+<div class="modal-window">
+    <div class="modal-card">
+        <h2 class="modal-heading">
+            Log in
+        </h2>
+        
+        <form action="" class="modal-form">
+            <span ><input type="email" class="modal-inputs" placeholder="Enter your email"> <img src="images/userr.svg" class="icon1" alt=""></span>
+            <span >
+                <input type="password" id="modalpasswordinput" class="modal-inputs" placeholder="Enter your password"><img src="images/pass.svg" class="icon1" alt=""></span>
+                <img id="ShowPassword" class="shownow"  src="./img/icons/showassword.svg" alt="">
+                <img id="hidePassword" class="hidenow" src="./img/icons/hidePassword.svg" alt="">
+            </form>
+            
+            
+            <button class="login" id="login">Login </button>
+            <button id="closemodal" ><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+    
+    
+
+    
+    <!-- <div class="blur">
+    <div class="modal">
+        <h2>Log in</h2>
+        <span><i class="fa-solid fa-xmark"></i></span>
+        <div class="username">
+            <img src="images/fa_user.svg" alt="user">
+            <input type="text">
+        </div>
+    </div>
+    
+</div> -->
+
+    <!-- End header (Muhammadziyo) -->
 
     <!-- Start Main (Umarbek) -->
     <!-- End Main (Umarbek) -->
 
-    
     <!-- Start section,footer (Xojiakbar) -->
     <!-- End section,footer (Xojiakbar) -->
 
-
-<script src="./JS/main.js"></script>
-</body>
+    <script src="./JS/main.js"></script>
+  </body>
 </html>
