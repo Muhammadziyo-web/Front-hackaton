@@ -328,9 +328,6 @@ nav ul #active-link::after {
   flex-grow: 0;
   margin-bottom: 32px;
 }
-.modal-window .modal-card .modal-form {
-  position: relative;
-}
 .modal-window .modal-card .modal-form #hidePassword {
   position: absolute;
   bottom: 23%;
@@ -449,6 +446,7 @@ nav ul #active-link::after {
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.3s;
+  font-size: 24px;
 }
 .modal-window .modal-card .login:hover {
   background-color: white;
@@ -461,18 +459,34 @@ nav ul #active-link::after {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 18px;
+  width: 54px;
+  height: 54px;
   gap: 5px;
-  background: var(--border);
   border-radius: 100px;
   outline: none;
   border: none;
-  top: 5%;
-  right: 5%;
+  top: 20px;
+  right: 20px;
   cursor: pointer;
 }
 .modal-window .icon1 {
   position: relative;
   bottom: 90px;
   left: 20px;
+}
+
+#toTop {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  width: 50px;
+  height: 50px;
+  background: rgba(7, 72, 74, 0.3960784314);
+  border-radius: 50%;
+  border: 1px solid #07484a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
 }/*# sourceMappingURL=style.css.map */

@@ -21,7 +21,7 @@ const $ = function (item) {
   
     return newElement;
   };
-  
+
 let categoryArr =
   "Bedroom Dinning Room Meeting Room Workspace Living Room Kitchen Living Space".split(
     " "
@@ -98,7 +98,11 @@ closemodal.addEventListener("click", () => {
   $(".login").addEventListener("click", () => {
     $(".modal-window").style.display = "block";
   });
-    
+    window.addEventListener('scroll',(e)=>{
+        if(window.scrollY >1000){
+            toTop.style.display = 'flex'
+        }
+    })
 
 
 
