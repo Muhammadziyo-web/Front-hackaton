@@ -98,6 +98,7 @@ closemodal.addEventListener("click", () => {
   $(".login").addEventListener("click", () => {
     $(".modal-window").style.display = "block";
   });
+<<<<<<< HEAD
     window.addEventListener('scroll',(e)=>{
         if(window.scrollY >1000){
             toTop.style.display = 'flex'
@@ -106,3 +107,6 @@ closemodal.addEventListener("click", () => {
 
 
 
+=======
+    
+>>>>>>> bc0b708ecdf26f4fae4411e08a2293d6c67a7df9
