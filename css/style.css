@@ -252,6 +252,7 @@ nav ul #active-link::after {
   align-items: flex-start;
   padding: 50px 35px;
   margin: 15px;
+  margin-left: 6rem;
   width: 330px;
   height: 480px;
   background: #CAF3E5;
@@ -648,13 +649,12 @@ nav ul #active-link::after {
 }
 * .bgi {
   width: 500px;
-  position: relative;
 }
 * .bgi img {
-  width: 300px;
+  width: 330px;
   position: absolute;
   left: 0;
-  top: -40;
+  top: -5rem;
 }
 * #spanH1 {
   font-family: playfair;
