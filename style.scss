@@ -1,6 +1,19 @@
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: open-sans;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: playfair;
+}
+p{
+    font-size: 38px;
+
 }
 
